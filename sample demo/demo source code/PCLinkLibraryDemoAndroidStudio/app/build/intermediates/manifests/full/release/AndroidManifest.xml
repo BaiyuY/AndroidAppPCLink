@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.taidoc.pclinklibrary.demo"
+    android:versionCode="25"
+    android:versionName="1.2.7" >
+    <!--
+ <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+    -->
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="17" />
+
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="false" />
+
+    <application
+        android:icon="@drawable/app"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.taidoc.pclinklibrary.demo.PCLinkLibraryDemoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <!--
+                     下面這行表示會在usb接上時app被啟動,所以在eclipse按下run時app不會被叫起來, 若要debug
+                	 ,且和PL2303傳送資料無關的話,可以先關掉,要不然就要在runtime時送alertdialog的方式來查
+                -->
+                <!-- <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" /> -->
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+        <activity
+            android:name="com.taidoc.pclinklibrary.demo.PCLinkLibraryCommuTestActivity"
+            android:label="@string/command_test_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.taidoc.pclinklibrary.demo.PCLinkLibraryCommuTestActivityForKNV"
+            android:label="@string/command_test_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.taidoc.pclinklibrary.demo.AudioMonitorActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

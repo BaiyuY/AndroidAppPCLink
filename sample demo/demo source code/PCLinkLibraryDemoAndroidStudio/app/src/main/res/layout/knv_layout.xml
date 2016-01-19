@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/getLastMeasurementRecordLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="8dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center|left"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="170dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/measurement_date"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    <TextView
+	        android:id="@+id/tv_date"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	</LinearLayout>
+	
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center|left"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="170dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/knv_user"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    <TextView
+	        android:id="@+id/tv_user"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	</LinearLayout>
+	
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center|left"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="170dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/knv_gender"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    <TextView
+	        android:id="@+id/tv_gender"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	</LinearLayout>
+	
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center|left"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="170dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/knv_age"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    <TextView
+	        android:id="@+id/tv_age"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	</LinearLayout>
+	
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center|left"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="170dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/knv_height"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    <TextView
+	        android:id="@+id/tv_height"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	</LinearLayout>
+	
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center|left"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="170dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/knv_weight"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    <TextView
+	        android:id="@+id/tv_weight"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	</LinearLayout>
+	
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center|left"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="170dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/knv_bfr"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    <TextView
+	        android:id="@+id/tv_bfr"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	</LinearLayout>
+	
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center|left"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="170dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/knv_bm"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    <TextView
+	        android:id="@+id/tv_bm"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	</LinearLayout>
+	
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center|left"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="170dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/knv_mc"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    <TextView
+	        android:id="@+id/tv_mc"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	</LinearLayout>
+	
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center|left"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="170dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/knv_mr"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    <TextView
+	        android:id="@+id/tv_mr"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	</LinearLayout>
+	
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center|left"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="170dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/knv_sw"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    <TextView
+	        android:id="@+id/tv_sw"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/white"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	</LinearLayout>
+    
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/knv_back"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</LinearLayout>

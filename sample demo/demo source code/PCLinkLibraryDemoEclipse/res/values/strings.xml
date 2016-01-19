@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PCLinkLibraryDemo</string>
+    <string name="command_test_menu">Choose One Command Type</string>
+    <string name="baudrate">BaudRate</string>
+    <string name="pair_result">Pair Device Result</string>
+    <string name="get_project_code">Get Project Code</string>
+    <string name="get_serial_number">Get Serial Number</string>
+    <string name="get_storage_count">Get Storage Count</string>
+    <string name="get_measurement_record">Measurement Record</string>
+    <string name="get_meter_system_clock">Get Meter System Clock</string>
+    <string name="set_meter_system_clock">Set Meter System Clock</string>
+    <string name="get_battery_status">Get Battery Status</string>
+    <string name="battery_status">Battery Status:</string>
+    <string name="device_name">Device Name:</string>
+    <string name="device_list">Device List:</string>
+    <string name="meter_bt_transfer_type">Meter Bluetooth Transfer Type</string>
+    <!-- <string name="bt_type_one">Type I</string>
+    <string name="bt_type_two">Type II</string> -->
+    <string name="bt_type_one">Connect</string>
+    <string name="bt_type_two">Listen</string>
+    <string name="hint">Please choose one pair meter in list</string>
+    <string name="connect_meter">Connect Meter</string>
+    <string name="project_code">Project Code:</string>
+    <string name="meter_system_clock">Meter Time:</string>
+    <string name="before_meter_system_clock">Before Sync Meter Time:</string>
+    <string name="after_meter_system_clock">After Sync Meter Time:</string>
+    <string name="measurement_type">Measurement Type:</string>
+    <string name="bg_value">BG(mg/dL):</string>
+    <string name="thermometer_value">Body Temperature(°C):</string>
+    <string name="spO2_value">spO2:</string>
+    <string name="gender_value">Gender:</string>
+    <string name="age_value">Age:</string>
+    <string name="height_value">Height:</string>
+    <string name="weight_value">Weight:</string>
+    <string name="bmi_value">BMI:</string>
+    <string name="bmr_value">BMR:</string>
+    <string name="bf_value">BF:</string>
+    <string name="sys_value">Systolic(mmHg):</string>
+    <string name="dia_value">Diastolic(mmHg):</string>
+    <string name="pul_value">Pulse(beast/min):</string>
+    <string name="ihb_value">IHB:</string>
+    <string name="measurement_date">Measurement Date:</string>
+    <string name="serial_number">Serial Number:</string>
+    <string name="storage_count">Total Records:</string>
+    <string name="device_mac_address">Device Mac Address:</string>
+    <string name="start_search_meter">Start searching meters,please wait a while</string>
+    <string name="connection_meter_and_get_result">Start connecting meter and get result, please wait a while</string>
+    <string name="bluetooth_occur_error">Bluetooth occur error,please enable bluetooth and pair remot devices</string>
+    <string name="bluetooth_need_to_pair">Please go to "Settings-->Wireless &amp; networks" pair Bluetooth devices</string>
+    <string name="check_bt_fail">device singal to low!!!!</string>
+    <string name="not_support_meter">Not support meter!!!!</string>
+    <string name="not_connect_serial_port">Not connect serial port!!!!</string>
+    <string name="connect_meter_fail">Connect meter fail, Please Check the Bluetooth module, and retry!!</string>
+    <string name="connect_meter_success">Connect meter success, you can choose one of the command to test meter communication!!</string>
+    <string name="meter_was_power_off">Meter was power off, click OK and go to the meter menu.</string>
+    <string name="clear_records">Meter records were cleaned.</string>
+    <string name="meter_trans_type_fail">Please choose meter transfer type!!!!</string>
+    <string name="pair_meter_first">Please Pair Device First!!</string>
+    <string name="disable_alwayson_success">Disable function success!</string>
+    <string name="disable_alwayson_fail">Disable function fail!</string>
+    <string name="ok">OK</string>
+    <string name="cd_image">image</string>
+    
+    <!-- setting meter -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="tab_setting">SETTING</string>
+    <string name="saveandleave">Save and leave?</string>
+    <string name="setting_home_meter">Bluetooth Smart Meter</string>
+    <string name="setting_pair">V4 Meter Pair</string>
+    <string name="add">Add</string>
+    <string name="setting_current_ble_meter">Current Meters</string>
+    <string name="setting_available_meter">Available Meters</string>
+    <string name="meter_search">Search</string>
+    <string name="setting_meter_stop">Stop</string>
+
+    <!-- knv layout -->
+    <string name="knv_user">User</string>
+    <string name="knv_gender">Gender</string>
+    <string name="knv_age">Age</string>
+    <string name="knv_height">Height</string>
+    <string name="knv_weight">Weight</string>
+    <string name="knv_bfr">Body Fat Ratio</string>
+    <string name="knv_bm">Basal Metabolism</string>
+    <string name="knv_mc">Moisture Content</string>
+    <string name="knv_mr">Muscle Ratio</string>
+    <string name="knv_sw">Skeleton Weight</string>
+    <string name="knv_back">Back</string>
+</resources>

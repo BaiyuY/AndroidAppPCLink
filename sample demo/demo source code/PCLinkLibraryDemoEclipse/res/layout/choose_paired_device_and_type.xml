@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+    
+	    <TextView
+	        android:id="@+id/tvBaudRate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/baudrate"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    <Spinner
+	        android:id="@+id/spBaudRate"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+	
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:layout_marginBottom="5dp"
+	        android:background="@color/lightGray" >
+    	</View>
+    
+	    <Button
+	        android:id="@+id/btnPL2303ConnectMeter"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/connect_meter" />
+    
+    </LinearLayout>
+    
+    <!-- paired device list -->
+
+	<LinearLayout
+        android:id="@+id/ll_body"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	    
+	    <TextView
+	        android:id="@+id/hintText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hint"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <TextView
+	        android:id="@+id/deviceListTitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/device_list" />
+	
+	    <Spinner
+	        android:id="@+id/pairDeviceList"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+	    <!-- choose type one or type two -->
+	
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:layout_marginBottom="5dp"
+	        android:background="@color/lightGray" >
+	    </View>
+	
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/meter_bt_transfer_type" >
+	    </TextView>
+	
+	    <RadioGroup
+	        android:id="@+id/meterBtTransferTypeRadioGroup"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	
+	        <RadioButton
+	            android:id="@+id/meterBtType1RadioButton"
+	            android:text="@string/bt_type_one"
+	            android:checked="true" />
+	
+	        <RadioButton
+	            android:id="@+id/meterBtType2RadioButton"
+	            android:text="@string/bt_type_two" />
+	    </RadioGroup>
+	
+	    <Button
+	        android:id="@+id/btnConnectMeter"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="8dp"
+	        android:text="@string/connect_meter"
+	        android:textAllCaps="false" />
+	    
+	    <Button
+	        android:id="@+id/btnPair"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/setting_pair"
+	        android:textAllCaps="false" />
+	    
+	    <Button
+	        android:id="@+id/btnAudio"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="audio monitor"
+	        android:textAllCaps="false"
+	        android:visibility="invisible" />
+	
+	</LinearLayout>
+</LinearLayout>

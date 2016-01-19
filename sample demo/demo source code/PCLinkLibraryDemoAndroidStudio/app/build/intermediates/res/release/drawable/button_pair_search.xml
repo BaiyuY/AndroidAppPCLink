@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/pair_icon_serch_press" android:state_pressed="true"/>
+    <item android:drawable="@drawable/pair_icon_serch"/>
+
+</selector><!-- From: file:/Users/yangbaiyu/Desktop/495%20Mhealth/HelloWorld%20Project/PCLinkLibrary_Android_v1.2.7/sample%20demo/demo%20source%20code/PCLinkLibraryDemoAndroidStudio/app/src/main/res/drawable/button_pair_search.xml -->

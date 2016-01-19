@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/yangbaiyu/Desktop/495 Mhealth/HelloWorld Project/PCLinkLibrary_Android_v1.2.7/sample demo/demo source code/PCLinkLibraryDemoAndroidStudio/app/libs/pl2303lib.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="95c9763875529e71b209ed730199232dee8e0026">
+        <dex dex="/Users/yangbaiyu/Desktop/495 Mhealth/HelloWorld Project/PCLinkLibrary_Android_v1.2.7/sample demo/demo source code/PCLinkLibraryDemoAndroidStudio/app/build/intermediates/pre-dexed/debug/pl2303lib-25df4458da3f04d212306d6de77fb94485b00853.jar" />
+    </item>
+    <item
+        jar="/Users/yangbaiyu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/yangbaiyu/Desktop/495 Mhealth/HelloWorld Project/PCLinkLibrary_Android_v1.2.7/sample demo/demo source code/PCLinkLibraryDemoAndroidStudio/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-9937ef61838e35c0f55f9f7f93b7e1594815a101.jar" />
+    </item>
+    <item
+        jar="/Users/yangbaiyu/Desktop/495 Mhealth/HelloWorld Project/PCLinkLibrary_Android_v1.2.7/sample demo/demo source code/PCLinkLibraryDemoAndroidStudio/app/libs/pclinklibrary.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5036daae51775f128f45ab672cb75bff61d9bbd5">
+        <dex dex="/Users/yangbaiyu/Desktop/495 Mhealth/HelloWorld Project/PCLinkLibrary_Android_v1.2.7/sample demo/demo source code/PCLinkLibraryDemoAndroidStudio/app/build/intermediates/pre-dexed/debug/pclinklibrary-40e0d5027f528de0d0aecdbfe75c0741ef04721c.jar" />
+    </item>
+
+</items>

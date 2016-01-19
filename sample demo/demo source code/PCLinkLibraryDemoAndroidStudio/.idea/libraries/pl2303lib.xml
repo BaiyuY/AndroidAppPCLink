@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pl2303lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/pl2303lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

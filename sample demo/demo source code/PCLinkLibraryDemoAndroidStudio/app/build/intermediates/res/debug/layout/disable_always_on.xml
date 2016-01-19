@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/disableAlwaysonLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disable_alwayson_success"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout><!-- From: file:/Users/yangbaiyu/Desktop/495%20Mhealth/HelloWorld%20Project/PCLinkLibrary_Android_v1.2.7/sample%20demo/demo%20source%20code/PCLinkLibraryDemoAndroidStudio/app/src/main/res/layout/disable_always_on.xml -->

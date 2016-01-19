@@ -1,0 +1,11 @@
+1. 因為在版本v1.0.9後增加了PL2303(USB->RS232)的Library的API的使用，
+所以可以注意到lib目錄下多了的PL2303的jar檔，而在PCLinkLibrary下的lib目錄下也
+有一個，這是因為二個都必須要放，要不在呼叫PCLinkLibrary的連線PL2303的部份會
+crash。
+2. 在使用TDLinkLibrary的PL2303功能的API 時，因為attach要寫在被使用的app的
+.manifest 檔（注意還有要外加一個xml檔)參考sample），detach是寫在activity下的
+receiver去監聽。而因為attach寫在.manifest檔中，會當usb cable接下時觸發app的
+onResume function（在裡面要去判斷是否為usb intent呼叫進來的，參考sample)，
+所以在eclipse按下run或debug時，程式並不會被叫醒，所以必須在runtime時使用
+show alert dialog的放時來debug，若要debug的地方和PL2303傳輸沒有直接的關係，
+則可以先把.manifest中由attach叫起的那行指令註解掉，這樣就可以由debug叫起程式。

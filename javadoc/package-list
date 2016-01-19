@@ -1,0 +1,12 @@
+com.taidoc.pclinklibrary
+com.taidoc.pclinklibrary.android.bluetooth.util
+com.taidoc.pclinklibrary.connection
+com.taidoc.pclinklibrary.connection.util
+com.taidoc.pclinklibrary.constant
+com.taidoc.pclinklibrary.exceptions
+com.taidoc.pclinklibrary.interfaces
+com.taidoc.pclinklibrary.meter
+com.taidoc.pclinklibrary.meter.record
+com.taidoc.pclinklibrary.meter.service
+com.taidoc.pclinklibrary.meter.util
+com.taidoc.pclinklibrary.util

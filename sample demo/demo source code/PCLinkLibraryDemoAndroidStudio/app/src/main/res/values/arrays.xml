@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="BaudRate_Var">
+        <item >9600</item>
+        <item >19200</item>
+        <item >115200</item>
+    </string-array>
+    
+    <string-array name="IHBValue">
+        <item>Normal</item>
+        <item>IHB</item>
+        <item>Tachycardia or Bradycardia</item>
+        <item>Varied Heart Rate (±20%)</item>
+        <item>Atrail Fibrillation (AF)</item>
+    </string-array>
+    
+    <string-array name="battery_status">
+        <item >Not support</item>
+        <item >Good</item>
+        <item >Low</item>
+        <item >Dead</item>
+    </string-array>
+    
+</resources>
